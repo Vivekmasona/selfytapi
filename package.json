@@ -1,0 +1,15 @@
+{
+  "name": "youtube-video-search",
+  "version": "1.0.0",
+  "description": "Node.js script for searching and fetching YouTube video details",
+  "main": "index.js", 
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",  
+    "node-fetch": "^2.6.1" 
+  },
+  "scripts": {
+    "start": "node index.js" 
+  },
+  "author": "vivek masona",
+  "license": "ISC"
+}
