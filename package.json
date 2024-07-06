@@ -1,15 +1,18 @@
 {
-  "name": "youtube-video-search",
-  "version": "1.0.0",
-  "description": "Node.js script for searching and fetching YouTube video details",
-  "main": "index.js", 
+  "name": "youtube-search-proxy",
+  "version": "0.0.1",
+  "description": "A simple proxy server for YouTube search",
+  "main": "server.js",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.11",  
-    "node-fetch": "^2.6.1" 
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "scripts": {
-    "start": "node index.js" 
+    "start": "node server.js"
   },
-  "author": "vivek masona",
-  "license": "ISC"
+  "license": "MIT"
 }
